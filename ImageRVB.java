@@ -23,17 +23,7 @@ public class ImageRVB extends Image {
         return true;
     }
 
-    @Override
-    public boolean equals(Object obj) {
-        if(obj instanceof ImageRVB){
-            ImageRVB tmp =(ImageRVB) obj;
-            
-            if (this.getall()==tmp.getall()){
-                return true;
-            }
-        }
-        return false;
-    }
+    
 
     
 }
